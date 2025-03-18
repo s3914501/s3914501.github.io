@@ -1,0 +1,52 @@
+h1 {
+  color: darkblue;
+  font-weight: bold;
+}
+h2 {
+  color: blue;
+}
+
+p {
+  color: black;
+}
+
+li {
+  color: brown;
+}
+
+h3 {
+  color: brown;
+}
+
+section {
+  text-align: center;
+  border: 1px solid red;
+}
+
+.heading-border {
+  border: 3px dashed grey;
+}
+
+body {
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
+h1 {
+  color: lime;
+  font-size: 3rem;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+/*
+curly braces {}
+parentheses < >
+square brackets []
+round brackets ()
+colon::after
+semicolum ;
+syntax: rules of the lang
+
+*/
