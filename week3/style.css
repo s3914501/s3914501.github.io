@@ -40,6 +40,19 @@ h1 {
   text-transform: uppercase;
 }
 
+p {
+  border: 1px salmon (232, 161, 30);
+  width: 400px;
+  min-height: 200px;
+  margin: 0 auto;
+  /* horizontal centering */
+  padding-left: 30px;
+  padding-top: 40px;
+  padding: 20px 30px 40px 50px;
+  padding: 20px margin- bottom 20px;
+  border-bottom: 2px dashed green;
+}
+
 /*
 curly braces {}
 parentheses < >

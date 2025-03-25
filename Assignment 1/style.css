@@ -7,7 +7,16 @@ Rationale for the color scheme and typography::
 
 ============================*/
 
+body {
+  background-color: rgb(194, 241, 245);
+  margin: 0 auto;
+}
+
 h1 {
   color: darkblue;
   font-weight: bold;
+}
+
+li {
+  font-weight: 900;
 }
