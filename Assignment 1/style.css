@@ -15,8 +15,15 @@ body {
 h1 {
   color: darkblue;
   font-weight: bold;
+  text-align: center;
 }
 
 li {
   font-weight: 900;
+}
+body {
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
 }
