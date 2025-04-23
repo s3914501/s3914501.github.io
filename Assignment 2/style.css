@@ -47,11 +47,13 @@ p {
   text-align: left;
   color: rgb(189, 189, 189);
   border-bottom: 2px dashed rgb(187, 173, 173);
+  margin-left: 100px;
 }
 
 h2 {
   text-align: left;
   color: rgb(255, 191, 234);
+  margin-left: 100px;
 }
 
 button {
