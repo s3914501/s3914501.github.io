@@ -22,13 +22,17 @@ video {
   margin: 0 auto;
 }
 
+.button-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 20px;
+}
+
 button {
   padding: var(--my-padding);
   font-size: 1.6rem;
   border-radius: var(--my-borders);
-
-  margin-left: 60px;
-  margin-right: -49px;
   cursor: pointer;
   background-color: var(--bg-color);
 }
