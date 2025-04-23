@@ -46,6 +46,7 @@ body {
 p {
   text-align: left;
   color: rgb(189, 189, 189);
+  border-bottom: 2px dashed rgb(187, 173, 173);
 }
 
 h2 {
