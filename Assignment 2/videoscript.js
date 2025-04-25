@@ -25,6 +25,26 @@ function pauseVideo() {
   myVideo.pause();
 }
 
+const fullscreenButton = document.querySelector("#fullscreen-button");
+console.log(fullscreenButton);
+fullscreenButton.addEventListener("click", () => {
+  if (myVideo.requestFullscreen) {
+    myVideo.requestFullscreen();
+  } else if (myVideo.webkitRequestFullscreen) {
+    myVideo.webkitRequestFullscreen();
+  } else if (myVideo.msRequestFullscreen) {
+    myVideo.msRequestFullscreen();
+  }
+});
+
+const repeatButton = document.querySelector("#repeat-button");
+repeatButton.addEventListener("click", repeatVideo);
+
+function repeatVideo() {
+  myVideo.currentTime = 0;
+  myVideo.play();
+}
+
 const playPauseButton = document.querySelector("#play-pause-button");
 console.log(playPauseButton);
 playPauseButton.addEventListener("click", toggleVideo);
