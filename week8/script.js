@@ -16,11 +16,14 @@ console.log(playPauseImg);
 //run this function when click happens
 function togglePlay() {
   if (myVideo.paused || myVideo.ended) {
-    playPauseImg.src = "";
+    playPauseImg.src = "https://img.icons8.com/ios-glyphs/30/pause--v2.png";
     myVideo.play();
   } else {
-    playPauseImg.src = "";
+    playPauseImg.src = "https://img.icons8.com/ios-glyphs/30/play--v2.png";
     myVideo.pause();
   }
 }
 //--------------------------------------------------
+//myVideo.muted => myVideo.muted === true
+// !myVideo.muted => myVideo.muted === false
+// = assigning values name="rohit" id =4
