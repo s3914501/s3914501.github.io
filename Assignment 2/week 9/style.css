@@ -1,0 +1,64 @@
+body {
+  background-color: aliceblue;
+  display: flex;
+  text-align: center;
+  margin: auto;
+  max-width: 1000px;
+}
+
+.outer {
+  border: 2px dashed #e5e5cb7a;
+  width: 400px;
+  min-height: 200px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  opacity: 1;
+  /*background-color: cornsilk; */
+  transition: opacity 0.5s ease, transform 0.5s ease, background-color 0.5s ease;
+}
+
+button {
+  cursor: pointer;
+  font-size: 1.4rem;
+  padding: 10px 20px;
+  border-radius: 10px;
+  background-color: cornflowerblue;
+  border: none;
+  transition: backgorund-color 0.4s ease, scale 0.4s ease;
+}
+
+button:hover {
+  background-color: blue;
+  scale: 0.9;
+  rotate: -30deg;
+}
+
+input {
+  cursor: pointer;
+  font-size: 1.4rem;
+  padding: 5px;
+  border-radius: 10px;
+  width: 8rem;
+  border: 6px solid crimson;
+  transition: border-color 0.5s linear;
+}
+
+input:hover {
+  border-color: coral;
+}
+
+#duck-icon {
+  cursor: pointer;
+}
+
+#duck-icon:hover {
+  background-color: cornflowerblue;
+}
+
+#my-duck:hover {
+  scale: 0.9;
+}
