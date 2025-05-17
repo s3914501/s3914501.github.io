@@ -2,15 +2,31 @@ body {
   margin: 0;
   padding: 0;
   font-family: "Segoe UI", sans-serif;
-  background: #f0f2f5;
+  height: 100vh;
+  background: linear-gradient(-45deg, #b45436, #c292a4, #eca4e5, #23d5ab);
+  background-size: 400% 400%;
+  animation: gradientBG 15s ease infinite;
+
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  flex-direction: column;
 }
 
 body {
   background-color: hsla(200, 54%, 21%, 0.898);
+  body {
+    font-family: "Poppins", sans-serif;
+  }
+
+  .slider-title {
+    font-family: "Poppins", sans-serif;
+    font-size: 2.5em;
+    color: white;
+    margin-bottom: 30px;
+    font-weight: 700;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+  }
 }
 
 .slider-container {
