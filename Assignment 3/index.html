@@ -1,42 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap"
-      rel="stylesheet"
-    />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Family Photo Slider</title>
+    <title>Family Video Slider</title>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div class="slider-container">
-      <h1 id="sliderTitle" class="slider-title">Family Photo Slider</h1>
-      <div class="slider" id="slider">
-        <div class="card">
-          <img src="Family Photo 1.jpg" alt="Family Photo 1" />
-        </div>
-        <div class="card">
-          <img src="Family Photo 2.jpg" alt="Family Photo 2" />
-        </div>
-        <div class="card">
-          <img src="Family Photo 3.jpg" alt="Family Photo 3" />
-        </div>
-        <div class="card">
-          <img src="Family Photo 4.jpg" alt="Family Photo 3" />
-        </div>
-      </div>
+    <div class="container">
+      <h1 class="title">MEMORY CAPSULES</h1>
 
-      <div class="dots">
-        <span class="dot active" onclick="goToSlide(0)"></span>
-        <span class="dot" onclick="goToSlide(1)"></span>
-        <span class="dot" onclick="goToSlide(2)"></span>
-        <span class="dot" onclick="goToSlide(3)"></span>
-      </div>
+      <div class="slider">
+        <button class="nav left" onclick="prevSlide()">&#10094;</button>
 
-      <button class="nav left" onclick="moveSlide(-1)">&#10094;</button>
-      <button class="nav right" onclick="moveSlide(1)">&#10095;</button>
+        <div class="video-wrapper">
+          <video src="Video 1.mp4" class="video-slide active" controls></video>
+          <video src="Video 2.mp4" class="video-slide" controls></video>
+          <video src="Video 3.mp4" class="video-slide" controls></video>
+          <video src="Video 4.mp4" class="video-slide" controls></video>
+          <video src="Video 5.mp4" class="video-slide" controls></video>
+        </div>
+
+        <button class="nav right" onclick="nextSlide()">&#10095;</button>
+      </div>
     </div>
 
     <script src="script.js"></script>
